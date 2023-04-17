@@ -1,0 +1,29 @@
+nav {
+  height: 60px;
+  width: 100%;
+  background-color: #1a1c18;
+  display: flex;
+
+  .links {
+    a {
+      color: gainsboro;
+      margin-left: 65px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      text-decoration: none;
+    }
+    margin: auto;
+  }
+  .icons {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    align-self: center;
+    margin-right: 40px;
+    color: gray;
+    .fa-location-dot {
+      margin-right: 30px;
+    }
+    .fa-magnifying-glass {
+    }
+  }
+}

@@ -1,0 +1,69 @@
+.statement {
+  height: 900px;
+  width: 100%;
+  background-color: #8a9675;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .wrapper {
+    margin-top: 50px;
+    height: 90%;
+    width: 80%;
+    .snake {
+      margin: 0 auto;
+      height: 150px;
+      width: 450px;
+      background-image: url(https://bikepacking.com/wp-content/themes/pedalingnowhere/img/v4/bikepackingcom-snake-trademark_texture.png);
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .text {
+      text-align: center;
+      margin-top: 50px;
+      height: 150px;
+      width: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+    }
+    .icons {
+      margin: auto;
+      height: 75px;
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      font-size: 50px;
+      color: #a23e3c;
+    }
+    .info-wrapper {
+      margin-top: 30px;
+      height: 300px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      .info {
+        height: 100%;
+        width: 22%;
+        text-align: center;
+        a {
+          text-decoration: none;
+          font-family: Arial;
+          font-size: 10px;
+          color: #a23e3c;
+        }
+        .header {
+          font-size: 18px;
+          font-family: Arial;
+          color: black;
+        }
+      }
+    }
+    footer {
+      text-align: center;
+      font-family: Arial;
+      font-size: 15px;
+    }
+  }
+}

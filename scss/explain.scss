@@ -1,0 +1,38 @@
+.explain {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  .wrapper {
+    height: 350px;
+    width: 90%;
+
+    .advert {
+      height: 150px;
+      width: 100%;
+      background-image: url(https://bikepacking.com/wp-content/uploads/2022/12/banner-salsa-journeyer-2023-01_2400x280.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .explain-text {
+      margin: auto;
+      margin-top: 50px;
+      height: 150px;
+      width: 75%;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #1a1c18;
+      font-size: 20px;
+      text-align: center;
+    }
+    .bikepacking {
+      height: 300px;
+      width: 100%;
+      background-image: url(https://bikepacking.com/wp-content/themes/pedalingnowhere/img/v4/bikepacking-101.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}

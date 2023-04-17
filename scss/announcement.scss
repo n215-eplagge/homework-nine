@@ -1,0 +1,29 @@
+.announcement {
+  height: 50px;
+  width: 100%;
+  background-color: #747f5a;
+  display: flex;
+
+  .words {
+    margin: auto;
+    font-family: Arial;
+    font-size: 20px;
+    .red-box {
+      background-color: #a23d3b;
+      padding: 3px 20px;
+      text-decoration: none;
+      color: #747f5a;
+      margin-right: 20px;
+      font-family: Arial;
+    }
+  }
+  .login {
+    font-family: Arial;
+    font-size: 20px;
+    align-self: center;
+    margin-right: 40px;
+    .fa-user {
+      margin-left: 10px;
+    }
+  }
+}

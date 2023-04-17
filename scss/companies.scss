@@ -1,0 +1,134 @@
+.companies {
+  margin-top: 70px;
+  height: 550px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .banner {
+    position: absolute;
+    margin-top: -43px;
+    height: 70px;
+    width: 300px;
+    clip-path: polygon(100% 0, 93% 51%, 100% 100%, 0% 100%, 7% 51%, 0 0);
+    border: 5px solid gray;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 25px;
+  }
+  .wrapper {
+    height: 500px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .mountain {
+    height: 160px;
+    width: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-image: url(https://bikepacking.com/wp-content/themes/pedalingnowhere/img/sponsor-logos/2023/sponsor-logo-oldmanmountain.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .mountain:hover {
+    background-position: center bottom;
+  }
+  .kona {
+    height: 160px;
+    width: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-image: url(https://bikepacking.com/wp-content/themes/pedalingnowhere/img/sponsor-logos/2023/sponsor-logo-kona.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .kona:hover {
+    background-position: center bottom;
+  }
+  .blackburn {
+    height: 160px;
+    width: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-image: url(https://bikepacking.com/wp-content/themes/pedalingnowhere/img/sponsor-logos/2023/sponsor-logo-blackburn.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .blackburn:hover {
+    background-position: center bottom;
+  }
+  .pedal {
+    height: 160px;
+    width: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-image: url(https://bikepacking.com/wp-content/themes/pedalingnowhere/img/sponsor-logos/2023/sponsor-logo-pedaled.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pedal:hover {
+    background-position: center bottom;
+  }
+  .nrth {
+    height: 160px;
+    width: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-image: url(https://bikepacking.com/wp-content/themes/pedalingnowhere/img/sponsor-logos/2023/sponsor-logo-45nrth.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .nrth:hover {
+    background-position: center bottom;
+  }
+  .jones {
+    height: 160px;
+    width: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-image: url(https://bikepacking.com/wp-content/themes/pedalingnowhere/img/sponsor-logos/2023/sponsor-logo-jones.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .jones:hover {
+    background-position: center bottom;
+  }
+  .tooth {
+    height: 160px;
+    width: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-image: url(https://bikepacking.com/wp-content/themes/pedalingnowhere/img/sponsor-logos/2023/sponsor-logo-wolftooth.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .tooth:hover {
+    background-position: center bottom;
+  }
+  .ride {
+    height: 160px;
+    width: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-image: url(https://bikepacking.com/wp-content/themes/pedalingnowhere/img/sponsor-logos/2023/sponsor-logo-rwgps.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .ride:hover {
+    background-position: center bottom;
+  }
+}

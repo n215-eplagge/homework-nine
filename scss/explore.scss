@@ -1,0 +1,54 @@
+.explore {
+  margin-top: 20px;
+  height: 300px;
+  width: 100%;
+  background-color: purple;
+  display: flex;
+  .explore-routes {
+    height: 100%;
+    width: 25%;
+    background-image: url(https://bikepacking.com/wp-content/themes/pedalingnowhere/img/v3/home/home-explore-routes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .explore-gear {
+    height: 100%;
+    width: 25%;
+    background-image: url(https://bikepacking.com/wp-content/themes/pedalingnowhere/img/v3/home/home-explore-gear.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .explore-bikes {
+    height: 100%;
+    width: 25%;
+    background-image: url(https://bikepacking.com/wp-content/themes/pedalingnowhere/img/v3/home/home-explore-bikes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .explore-lists {
+    height: 100%;
+    width: 25%;
+    background-image: url(https://bikepacking.com/wp-content/themes/pedalingnowhere/img/v3/home/home-explore-packlists.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .banner {
+    position: absolute;
+    margin-top: -33px;
+    margin-left: 37%;
+    height: 70px;
+    width: 300px;
+    clip-path: polygon(100% 0, 93% 51%, 100% 100%, 0% 100%, 7% 51%, 0 0);
+    background-color: #1a1c18;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 40px;
+  }
+}
